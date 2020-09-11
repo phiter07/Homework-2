@@ -1,6 +1,6 @@
 /****
 * PSEUDOCODE:
-*
+* FindNthRoot function, 
 */
 #include <iostream>
 #include <string>

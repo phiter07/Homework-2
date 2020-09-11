@@ -1,11 +1,29 @@
 /****
 * PSEUDOCODE:
 * 1. MinWordLength function, use a for and if loop.
+*    - Declare minWord to 1st element
+*    - Declare list
+*    - for loop when i is less than length
+*    - if true then set minWord to words[i].length
+*    - return minWord
 * 2. MaxWordLength function, use a for and if loop. 
-* 3. WordLengthRange function, return the range by taking MaxWordLength and subtract *   it with MinWordLength to find the range
+*    - Declare maxWord to 1st element
+*    - Declare list
+*    - for loop when i is greater than length
+*    - if true then set maxWord to words[i].length
+*    - return maxWord
+* 3. WordLengthRange function, return the range by taking MaxWordLength and subtract *    it with MinWordLength to find the range
 * 4. AverageWordLength function, use a for loop to find the average word.
+*    - Declare total to 0
+*    - for when i is less than length sum is sum equal to words[i].length
+*    - declare average to the total/length
+*    - return average
 * 5. MostCommonWordLength function, use a for loop to count the words.
 *    Use another for loop and inside that loop is if statements.
+*    - Declare counts[length], maxCount to 0, commonword to 0, and counter
+*    - for loop to keep track of count
+*    - for loop to keep track of count and increase if true
+*    - return commonWord
 */
 #include <iostream>
 #include <string>
@@ -34,7 +52,7 @@ int MaxWordLength(string words[], int length) {
 
     for(int i = 1; i < length; i++){
       list = words[i].length();
-      if( list > maxWord ){
+      if(list > maxWord){
         maxWord = words[i].length();
         maxWord = list;
       }
