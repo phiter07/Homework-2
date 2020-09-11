@@ -7,6 +7,9 @@
 * 5. MostCommonWordLength function, use a for loop to count the words.
 *    Use another for loop and inside that loop is if statements.
 */
+#include <iostream>
+#include <iomanip>
+#include <sstream>
 #include "dictionary.h"
 #include <string>
 using namespace std;
