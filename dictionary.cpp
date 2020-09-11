@@ -8,9 +8,6 @@
 *    Use another for loop and inside that loop is if statements.
 */
 #include <iostream>
-#include <iomanip>
-#include <sstream>
-#include "dictionary.h"
 #include <string>
 using namespace std;
 
